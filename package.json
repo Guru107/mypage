@@ -1,0 +1,21 @@
+{
+  "name": "mypage",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean": "rimraf build/ && mkdirp build",
+    "css-minify":"css-minify -d css/ -o build/css/",
+    "static":"cp -R static/ build/static",
+    "html-minify":"html-minifier --file-ext html -o build/index.html --collapse-boolean-attributes --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true index.html",
+    "build": "pnpm run clean && pnpm run css-minify && pnpm run static && pnpm run html-minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-minify": "^2.0.0",
+    "html-minifier": "^4.0.0",
+    "mkdirp": "^3.0.1",
+    "rimraf": "^5.0.7"
+  }
+}
