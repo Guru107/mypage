@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Gurudatt Kulkarni, 10+yrs in tech. Senior Engineer. I have worked on big data wrangling, backend engineering and developing web applications.">
+        <meta name="robots" content="index, follow">
+        <meta name="keywords" content="scala engineer, backend engineer, data engineer">
+        <meta name="author" content="Gurudatt Kulkarni">
+        <meta property="og:title" content="Gurudatt Kulkarni - Senior Engineer">
+        <meta property="og:description" content="Gurudatt Kulkarni, 10+yrs in tech. Senior Engineer. I have worked on big data wrangling, backend engineering and developing web applications.">
+        <meta property="og:url" content="https://gurudatt.surge.sh">
+        <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
+        <link rel="manifest" href="/static/site.webmanifest">
+        <title>Gurudatt Kulkarni - Senior Engineer</title>
+        <link rel="stylesheet" type="text/css" href="/static/site.css"/>
+    </head>
+    <body>
+        <div class="body-content">
+            <div class="section home">
+                <div class="content-wrapper">
+                    <p class="intro">Hi, I'm</p>
+                    <h1 class="hero">Gurudatt Kulkarni</h1>
+                    <i>I am a Software Engineer</i>
+                </div>
+            </div>
+            <div class="section about">
+                <h2>About Me</h2>
+                <p> 
+                    Over 10 years in the tech field, and I'm still as excited about code as a kid in a candy shop. 
+                    I'm a senior engineer who gets down with all sorts of tech - backend systems, big data wrangling, and even building sweet web apps.
+                    I love tackling challenges and diving into new tools to make things tick. Basically, if it involves code and making something awesome, I'm your guy.
+                </p>
+            </div>
+            <div class="section">
+                <h2>Experience</h2>
+                <div class="experience">
+                    <h3>>_ Falkonry (Senior Software Engineer, July 2021 - May 2024)</h3>
+                    <i>As a Senior Backend Developer at Falkonry, I was involved in the design and development of several critical backend projects, significantly enhancing the
+                        platform's signal management and reporting capabilities.</i>
+                    <h4>Projects:</h4>
+                    <ul>
+                        <li>
+                            <b>Signal Time Series Data Storage Optimisation:</b>
+                            <ul>
+                                <li>Designed a streamlined data model for signal storage, simplifying the process by grouping
+                                    signals based on their data frequency. This approach reduced storage complexity by consolidating multiple signals into a single directory,
+                                    making data retrieval and analysis more straightforward.</li>
+                                <li>
+                                    Developed a reliable service using Python, incorporating essential libraries such as FastAPI for API routes, PyArrow for Parquet read/write
+            operations, and the Pulsar client library for consuming data from topics.
+                                </li>
+                                <li>
+                                    Implemented a compaction module to aggregate time series data at different levels, utilizing Pandas for aggregation and data
+            cleaning. This module autonomously aggregated data to various granularities, supporting aggregation levels from one minute to one day.
+                                </li>
+                                <li>
+                                    Improved data metadata management by updating metadata objects in MongoDB upon the arrival of raw data, ensuring accurate tracking of
+            data points and facilitating efficient data retrieval.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <b>Asset Hierarchy Project:</b>
+                            <ul>
+                                <li>Designed and developed the data model and API to organize and manage a large volume of signals using MongoDB
+                                    for storage and Scala with Akka libraries for the API layer. This project improved the efficiency of organizing and searching signals on the
+                                    Falkonry platform.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <b>Reporting System:</b>
+                            <ul>
+                                <li>
+                                    Developed the backend for a comprehensive reporting system that enabled the creation and visualization of time-series
+                                    data reports. Leveraged existing APIs and data models to facilitate report organization and state management.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="experience">
+                    <h3>>_ BookMyShow (Senior Data Engineer, July 2017 - April 2021)</h3>
+                    <i>As a Senior Data Engineer, I was involved in designing and developing data piplines, ETL jobs, API services and setting up monitoring systems</i>
+                    <h4>Projects:</h4>
+                    <ul>
+                        <li>
+                            <b>Audience Targeting Self Service CMS:</b>
+                            <ul>
+                                <li>Developed a self-service user segmentation platform, enabling the creation and targeting of specific user cohorts.</li>
+                                <li>Contributed to query translation library that generated SQL queries based on parameters selected in the CMS.</li>
+                                <li>Developed user transaction aggregte job that refreshed the user transaction profile every 3 hours.</li>
+                                <li>Contributed to the API service that provided segment information for a user.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <b>Transaction Data Pipeline:</b>
+                            <ul>
+                                <li>Developed an automated data pipline using Kafka Connect to pull transaction data.</li>
+                                <li>Deployed Apache Kafka so that downstream systems can consume data from Kafka.</li>
+                                <li>Setup monitoring and alerting using Grafana and Prometheus.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <b>Clickstream Data Pipeline:</b>
+                            <ul>
+                                <li>Contributed to design and development of clickstream data pipline.</li>
+                                <li>Developed a validation service using Kafka Streams to validate clickstream events and publish on kafka.</li>
+                                <li>Developed a <a href="https://github.com/Guru107/hadoop-small-files-merger" rel="external" target="_blank">small file merger job</a> that solved the small files problem on hadoop.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h3>(Senior Fullstack Engineer, March 2016 - July 2017)</h3>
+                    <i>As a Senior Fullstack Developer, I was involved in designing and developing a Progressive Web Application (PWA) for BookMyShow Mobile Web Application</i>
+                    <h4>Projects:</h4>
+                    <ul>
+                        <li>
+                            <b>BookMyShow Progressive Web Application:</b>
+                            <ul>
+                                <li>Contributed to the architectural design of the project.</li>
+                                <li>Developed the build system for the project which optimized the assets and reduced asset size which improved the app load times.</li>
+                                <li>Developed React components for different pages and integrated with the API.</li>
+                                <li>Implemented server side rendering for all the pages for SEO purpose.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h3>(UI Developer, June 2015 - March 2016)</h3>
+                    <i>Contributed to the revamping of the BookMyShow desktop website, collaborating with product owners and designers to implement features from concept to completion.</i>
+                    <h4>Projects:</h4>
+                    <ul>
+                        <li>
+                            <b>BookMyShow Desktop Website Revamp:</b>
+                            <ul>
+                                <li>Developed webpages using HTML/CSS based on designs provided.</li>
+                                <li>Integrated APIs on the server-side in core PHP.</li>
+                                <li>Used jQuery for adding interactive experiences on webpages.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="experience">
+                    <h3>>_ Accenture (Associate Software Engineer, August 2014 - May 2015)</h3>
+                    <i>Contributed to fixing bugs and developing UI components for hybrid mobile applications.</i>
+                    <h4>Projects:</h4>
+                    <ul>
+                        <li>
+                            <b>Hybrid Mobile Application for a big bank</b>
+                            <ul>
+                                <li>Primarily worked on developing cross-platform hybrid apps.</li> 
+                                <li>Responsible for fixing issues and bugs.</li> 
+                                <li>Contributed to the reusable component library by developing components that were used by multiple teams.
+                                <li> Technologies Used: HTML, Javascript, XML.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="section">
+                <h2>Contact Me:</h2>
+                <div class="logos">
+                    <span class="linkedin">
+                        <a href="https://www.linkedin.com/in/gurudattkulkarni" rel="external" target="_blank">
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
