@@ -70,3 +70,6 @@ body {
 		opacity: 0;
 	}
 }
+a:visited {
+  color: #32CD32; /* LimeGreen for high contrast */
+}
