@@ -71,5 +71,8 @@ body {
 	}
 }
 a:visited {
-  color: #32CD32; /* LimeGreen for high contrast */
+  color: #e0fce0; /* LimeGreen for high contrast */
+}
+a {
+  color:#e0fce0
 }
